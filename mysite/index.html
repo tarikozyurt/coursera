@@ -1,9 +1,101 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Ello Govner</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Assignment1</title>
+<style>
+
+/********** Base styles **********/
+* {
+  box-sizing: border-box;
+}
+h1 {
+  text-align: center;
+  font-size: 175%;
+}
+#beef{
+  background-color: red;
+  color: white;
+}
+#sushi{
+  background-color: brown;
+  color: white;
+}
+#chicken{
+  background-color: pink;
+}
+.mid-title{
+  text-align: center;
+  font-size: 125%;
+  border: 1px solid black;
+  float: right;
+  width: 35%;
+  height: 30px;
+  font-family: arial;
+  font-weight: bold;
+  padding: 1px;
+  border-top-right-radius: 10px;
+}
+
+.boxx {
+  background-color: gray;
+  border: 1px solid black;
+  width: 30%;
+  float: left;
+  margin: 1%;
+  height: 250px;
+  border-radius: 10px;
+}
+
+p{
+  margin: 5%;
+  margin-top: 40px;
+  font-family: Helvetica;
+}
+
+@media (max-width: 767px) {
+  .boxx{
+    width: 90%;
+    margin: 5%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  #box3{
+    width: 98%;
+  }
+  .boxx{
+    width: 48%;
+    margin: 1%;
+    height: 200px;
+  }
+}
+
+</style>
 </head>
 <body>
-<h1>Helloo Rigby</h1>
+<h1>Our Menu</h1>
+<div>
+  <section class="boxx" id="box1">
+    <div class="mid-title" id="chicken">Döner</div>
+    <p>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean nec dui sit amet erat pellentesque blandit. Nunc quis orci augue. Quisque sit amet sem in neque auctor rutrum sit amet at mauris. Phasellus lorem purus, imperdiet pretium dignissim vel, tincidunt quis urna. Aenean diam eros, dictum eu viverra id, sollicitudin vel eros.
+  </p>
+  </section>
+  <section class="boxx" id="box2">
+    <div class="mid-title" id="beef">Kebap</div>
+    <p>
+      Suspendisse scelerisque felis at vulputate tincidunt. Donec malesuada mi ut iaculis faucibus. Ut faucibus, quam congue eleifend vulputate, lacus velit rutrum mi, ut pulvinar massa ex sed sapien. Donec at elementum ligula. Donec at justo enim. Nulla vulputate leo odio, et semper nisl interdum sit amet. Sed eu dictum diam. 
+   </p>
+  </section>
+  <section class="boxx" id="box3">
+    <div class="mid-title" id="sushi">Baklava</div>
+    <p> 
+    Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Etiam vestibulum sem a est auctor varius. Suspendisse tempus at nisi ut finibus. Aliquam et sapien non ante vulputate elementum. Proin ac tincidunt est, eget ultricies felis. Nullam eu faucibus augue. Integer cursus fermentum fermentum.
+    </p>
+  </section>
+</div>
+
 </body>
 </html>
