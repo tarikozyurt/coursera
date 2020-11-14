@@ -1,0 +1,69 @@
+<style>
+
+/********** Base styles **********/
+* {
+  box-sizing: border-box;
+}
+h1 {
+  text-align: center;
+  font-size: 175%;
+}
+#beef{
+  background-color: red;
+  color: white;
+}
+#sushi{
+  background-color: brown;
+  color: white;
+}
+#chicken{
+  background-color: pink;
+}
+.mid-title{
+  text-align: center;
+  font-size: 125%;
+  border: 1px solid black;
+  float: right;
+  width: 35%;
+  height: 30px;
+  font-family: arial;
+  font-weight: bold;
+  padding: 1px;
+  border-top-right-radius: 10px;
+}
+
+.boxx {
+  background-color: gray;
+  border: 1px solid black;
+  width: 30%;
+  float: left;
+  margin: 1%;
+  height: 250px;
+  border-radius: 10px;
+}
+
+p{
+  margin: 5%;
+  margin-top: 40px;
+  font-family: Helvetica;
+}
+
+@media (max-width: 767px) {
+  .boxx{
+    width: 90%;
+    margin: 5%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  #box3{
+    width: 98%;
+  }
+  .boxx{
+    width: 48%;
+    margin: 1%;
+    height: 200px;
+  }
+}
+
+</style>
